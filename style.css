@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18px 0px 0px;
+}
+
+
+
+.home {
+    width: 25px;
+    border: 1px;
+    border-radius: 27px;
+    padding: 11px;
+    background-color: #1f1f1f;
+}
+
+.search {
+
+    border: 1px;
+    border-radius: 27px;
+    padding: 0 15px;
+    background-color: #1f1f1f;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 50px;
+    justify-content: space-between;
+
+}
+
+.search img {
+    width: 25px;
+}
+
+.nav {
+    gap: 20px;
+    margin: 15px;
+    align-items: center;
+}
+
+.search input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.search div {
+    gap: 5px;
+}
+
+.login-bar {
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+}
+
+.line {
+    background: #fff;
+    height: 25px;
+    margin: 16px;
+    width: 1px;
+}
+
+.inlogo img {
+    width: 13px;
+}
+
+.install {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+}
+
+.sign-up {
+    padding: 8px;
+
+}
+
+.log-in {
+    margin: 8px;
+    padding: 8px;
+    border: 1px;
+    background-color: white;
+    border-radius: 29px;
+    padding: 13px 25px;
+
+}
+
+.login-bar button {
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #75756a;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 30vw;
+    height: 85vh;
+    background-color: #121212;
+    margin: 2px 2px 2px 10px;
+    border-radius: 8px;
+
+
+}
+
+.right {
+    width: 70vw;
+    height: 85vh;
+    background-color: #121212;
+    margin: 2px 10px 2px 2px;
+    border-radius: 8px;
+}
+
+.left-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 5px;
+
+}
+
+.left-head img {
+    width: 18px;
+
+}
+
+.border-box {
+    width: 80%;
+    height: 70px;
+    background-color: #1f1f1f;
+    margin: 40px 8px;
+    padding: 30px 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+
+}
+
+.border-box :nth-child(1) {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.border-box :nth-child(2) {
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+}
+
+.cp button {
+    border: none;
+    background: white;
+    color: #000000;
+    padding: 10px;
+    border-radius: 29px;
+    margin: 10px 2px 2px 0px;
+
+}
+
+.box {
+    height: 40vh;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.lang-button img {
+    width: 15px;
+}
+
+.lang-button {
+    margin: 18px;
+    margin-top: 40px;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    width: 90px;
+    padding: 8px;
+    border-radius: 21px;
+
+
+}
+
+.lang-button button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.link a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+    margin: 50px 5px;
+}
+
+.link {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.left-footer {
+    margin-top: 40px;
+}
+
+a:hover {
+    color: white;
+}
+
+.head{
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+}
+.head :nth-child(1){
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.card{
+    width: 185px;
+    padding: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.container-card{
+    padding: 10px;
+}
+
+.card h3{
+    font-size: 12px;
+
+}
+.song{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 2px;
+}
+.sg{
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.right{
+    overflow: auto;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.song-list{
+    margin: 10px;
+    padding: 5px 2px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    height: 200px;
+    background-color: #1f1f1f;
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.song-list ul {
+    margin: 15px;
+}
+
+.song-list ul li {
+    list-style-type: decimal;
+    list-style: none;
+    display: flex;
+    /* gap: 10px; */
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+
+
+    
+}
+
+.play img{
+    width: 25px;
+}
+.play{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd{
+    display: flex;
+    gap: 25px;
+    margin: 5px;
+}
+
+.info{
+    display: flex;
+    width: 100px;
+}
+
+
+
+.playbar{
+    width: 100%;
+    padding: 15px;
+    background: #282828;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon{
+    width: 35px;
+    cursor: pointer;
+}
+
+.seek-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#seekbar{
+    width: 70%;
+    cursor: pointer;
+}
+
+#currentTime, #totalTime{
+    font-size: 13px;
+}
