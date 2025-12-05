@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <!-- <link rel="stylesheet" href="sp.css"> -->
+    <link rel="shortcut icon" href="assits/spotify_logo_icon_229290.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header flex">
+        <div class="nav flex">
+            <div class="img">
+                <img class="invert" src="assits/logo.svg" alt="">
+            </div>
+            <div class="home">
+                <img src="assits/home.svg" alt="">
+            </div>
+            <div class="search flex">
+                <div class="flex"> <img src="assits/search.svg" alt=""> <input type="text"
+                        placeholder="What do you want to play?"></div>
+
+
+                <img class="invert" src="assits/icom.svg" alt="">
+            </div>
+        </div>
+
+        <div class="login-bar flex">
+            <button>Premium</button>
+            <button>Support</button>
+            <button>Download</button>
+            <div class="line"></div>
+            <div class="install flex">
+                <div class="inlogo"><img class="invert" src="install.svg" alt="">
+                </div> <button> Install App</button>
+            </div>
+            <div class="sign-up">
+                <button>Sign up</button>
+            </div>
+            <div class="log-in">
+                <button style="color: black;">Log in </button>
+            </div>
+
+        </div>
+    </div>
+    <!-- main content  -->
+    <div class="main">
+        <!-- left content  -->
+        <div class="left">
+
+            <div class="left-head">
+                <span>Your Library</span>
+                <span><img class="invert" src="assits/plus.png" alt=""></span>
+            </div>
+
+            <div class="box">
+                <div class="song-list">
+                    <ul>
+
+                    </ul>
+
+                </div>
+
+                <div class="border-box">
+                    <div>Create your first playlist</div>
+                    <div>It's easy, we'll help you</div>
+                    <div class="cp"><button style="font-size: 12px;">Create playlist</button></div>
+                </div>
+                <div class="border-box">
+                    <div>Let's find some podcasts to follow</div>
+                    <div>we'll keep you updated on new episodes</div>
+                    <div class="cp"><button style="font-size: 12px;">Browse podcasts</button></div>
+                </div>
+            </div>
+            <div class="left-footer">
+                <div class="link">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety&Privacy Centre </a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibilty</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <div class="lang-button flex">
+                    <span><img class="invert" src="assits/planet-earth.png" alt=""></span>
+                    <button>English</button>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <!-- right content  -->
+        <div class="right">
+            <div class="head flex">
+                <span>Trending songs</span>
+                <span>Show all</span>
+            </div>
+            <div class="container-card flex">
+                <div class="card flex">
+                    <img src="cards/haseen.jfif" alt="">
+                    <div class="song">
+                        <div class="sg">Haseen</div>
+                       
+                    </div>
+                </div>
+                <div class="card flex">
+                    <img src="cards/humdum.jfif" alt="">
+                    <div class="song">
+                        <div class="sg">Humdum</div>
+                      
+                    </div>
+                </div>
+                <div class="card flex">
+                    <img src="cards/kaale ghere.jfif" alt="">
+                    <div class="song">
+                        <div class="sg">Kaale ghere</div>
+                       
+                    </div>
+                </div>
+                <div class="card flex">
+                    <img src="cards/paaro.jfif" alt="">
+                    <div class="song">
+                        <div class="sg">Paro</div>
+                     
+                    </div>
+                </div>
+                <div class="card flex">
+                    <img src="cards/pal pal.jfif" alt="">
+                    <div class="song">
+                        <div class="sg">Pal pal</div>
+                      
+                    </div>
+                </div>
+            </div>
+
+
+
+
+             <div class="playbar">
+                <div class="controls">
+                    <img class="invert" id="prevBtn" class="icon" src="assits/previous.svg" />
+                    <img class="invert" id="playBtn" class="icon" src="assits/play.svg" />
+                    <img class="invert" id="nextBtn" class="icon" src="assits/next.svg" />
+                </div>
+
+                <div class="seek-container">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="seekbar" value="0">
+                    <span id="totalTime">0:00</span>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
